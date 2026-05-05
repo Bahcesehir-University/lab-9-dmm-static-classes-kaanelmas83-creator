@@ -157,7 +157,7 @@ IntArray::IntArray(const IntArray& other) {
     for(int a=0;a<count;a++){
         data[a]=other.data[a];
     }
-    Tracker::objectCreated;
+    Tracker::objectCreated();
 }   
 
 // Copy Assignment Operator
